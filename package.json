@@ -1,0 +1,24 @@
+{
+  "name": "vinyl-to-distiller",
+  "description": "osx distiller wrapper(vinyl to distiller)",
+  "version": "0.0.0",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/to-distiller.git"
+  },
+  "homepage": "https://github.com/nbqx/to-distiller",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^0.6.2"
+  },
+  "devDependencies": {
+    "vinyl-fs": "^0.3.8",
+    "tape": "^3.0.0",
+    "tap-colorize": "^1.2.0"
+  }
+}
